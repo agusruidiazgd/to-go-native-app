@@ -12,7 +12,11 @@ const App: () => React$Node = () => {
     <Provider store={store}>
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="To Go" component={LoginScreen} />
+          <Stack.Screen
+            options={{headerShown: false}}
+            name="To Go"
+            component={LoginScreen}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>

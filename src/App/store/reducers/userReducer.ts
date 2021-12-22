@@ -1,9 +1,3 @@
-interface results {
-  queue: number | null;
-  delay: number | null;
-  active_doctors: number | null;
-}
-
 export interface UserTypes {
   email: string;
   firstName: string;
