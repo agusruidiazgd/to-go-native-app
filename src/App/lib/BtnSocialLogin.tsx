@@ -8,7 +8,7 @@ export function BtnSocialLogin({
   text,
   action,
 }: {
-  icon?: string;
+  icon: string;
   text: string;
   action: any;
 }) {
