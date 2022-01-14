@@ -3,9 +3,10 @@ import {StyleSheet, View, SafeAreaView, Image} from 'react-native';
 import {useSelector} from 'react-redux';
 import {StoreInterface} from '../../store/reducers/index';
 import {AQUA} from '../../constants/colors';
-import BtnPrimary from '../../lib/BtnPrimary'
-import Txt from '../../lib/Txt'
-import Title from '../../lib/Title'
+import BtnPrimary from '../../lib/BtnPrimary';
+import Txt from '../../lib/Txt';
+import Title from '../../lib/Title';
+import {MyTabs} from '../../navigation';
 
 const HomeScreen = () => {
   const {user} = useSelector((state: StoreInterface) => state);
@@ -21,6 +22,7 @@ const HomeScreen = () => {
         <Txt>Here start your next adventure, Are you ready?</Txt>
       </View>
       <BtnPrimary text="GET STARTED" />
+      {/* <MyTabs /> */}
     </SafeAreaView>
   );
 };
