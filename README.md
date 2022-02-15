@@ -2,6 +2,9 @@
 To Go allows travelers to organize their trips more safely, making better use of their time and money.
 This project is being developed in React Native. I hope you will enjoy it!
 
+##### App Screens
+| ![Home](./src/App/assets/sample/sample1.png)
+
 ## ⚙️ Prerequisites
 - [Node.js > 12](https://nodejs.org) and npm (Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
 - [Watchman](https://facebook.github.io/watchman)
