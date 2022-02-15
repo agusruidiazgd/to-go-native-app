@@ -25,7 +25,7 @@ const App: () => React$Node = () => {
             component={HomeScreen}
           />
           <Stack.Screen
-            options={{headerShown: true}}
+            options={{headerShown: true, title: 'ToGo App'}}
             name="MenuHome"
             component={MenuScreen}
           />
